@@ -1,0 +1,61 @@
+
+$family: 'Raleway';
+$btncolor:#a2802e;
+$webcolor: #264b60;
+body{font-size: 1.5rem; font-family: $family, sans-serif;padding: 0px;  margin: 0px;}
+a{text-decoration: none; }
+.clear{clear: both;}
+.head{
+&-top{position: relative; background: url('../images/head-top.png') no-repeat;background-size:cover; width:100%;min-height:48px; height:48px; overflow: hidden;
+&-lft a{ font-size: 12.4px; background:$webcolor; display: block; color:#fff; width: 200px;text-align: center;  padding: 16px;}
+&-menu{
+    & ul {
+        li{display: inline-block;font-size: 0.9rem; color:#fff; margin-right: 13px; line-height: 47px; position: relative;
+            &:first-child:after{width: 1px; height: 13px; background: #fff; content: ""; display:block; position: absolute;right:-9px; top:17px;}
+            &:last-child{margin-right: 0px;}
+            & a{color: #fff;}
+            }
+    }
+
+}
+ }
+ &-bottom{ width: 100%; min-height: 90px; position: relative;
+& .logo{padding-top: 15px;
+    figure{margin:0px;}
+}
+& .menu{
+    & nav { min-height: 30px; padding:30px 0px; display: block;  width: 100%;
+        ul{ margin: 0px; padding: 0px; list-style:none; float: right;
+            & li{display: inline-block; padding-right: 20px;
+                &:last-child{padding-right: 0px}
+            & a{ font-size: 20px;color: #000;font-weight: 400;  text-decoration: none;transition: 0.3s ease;
+                border-top: 4px solid #fff;
+                border-bottom: 4px solid #fff;
+            &:hover{border-top: 4px solid $btncolor;
+                border-bottom: 4px solid $btncolor;
+                padding: 6px 0; }
+            }
+            }
+                }
+    }
+  }
+ }
+}
+/************slides-container**********/
+.slides-container{overflow: hidden; z-index: 0; position: relative; min-height: 650px; max-height:650px; width: 100%;}
+.slides{width: 100%;position: relative; height:640px;background-size:cover !important;min-height: 220px;}
+.slider-text-con{position: absolute; height:200px; width: 100%;   display: block;top:0px; left: 0px; bottom: 0px; margin: auto;}
+.slide-caption{min-height: 200px; position: relative;padding:0px;display: block; text-transform: uppercase; font-weight: 400;
+&-line1{color: $btncolor;font-size:30px; font-weight:300;}
+& h4{padding:5px 0 0px 0;color:$webcolor; font-weight:400;font-size:33px;margin: 0px;
+& span{font-size:50px;font-weight:700;}
+}
+}
+
+
+/*****Footer*****/
+footer{ width: 100%; min-height: 460px; position: relative;  bottom:0px; background: url('../images/footer-backgrnd.jpg') center no-repeat; background-size:cover;color:#fff;
+&-boxs{
+    
+}
+}

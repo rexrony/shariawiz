@@ -1,0 +1,21 @@
+{
+  "name": "shariawiz",
+  "version": "1.0.1",
+  "description": "shariawiz website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ronald",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-newer": "^1.4.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-image-optimization": "^0.1.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
